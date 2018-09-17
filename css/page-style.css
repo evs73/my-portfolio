@@ -1,0 +1,27 @@
+/*Navbar style*/
+#menu{
+    font-size: 30px;
+    color: black;
+    padding-top: 15px;
+}
+
+nav{
+    font-family: 'Open Sans', sans-serif;
+    font-size: 50px;
+}
+h1{
+    font-family: 'aurellascript';
+    font-weight: normal;
+    font-style: normal;
+    padding: 0px 0px 0px 470px;
+    font-size: 55px;
+}
+/*Main style*/
+.me{
+    height: 70%;
+    width: 70%;
+    margin: 50px 70px;
+}
+.aboutme{
+    margin: 50px 70px;
+}

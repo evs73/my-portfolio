@@ -1,0 +1,150 @@
+@font-face {
+    font-family: 'decalled_scriptregular';
+    src: url('fonts/decalled_script_demo_version-webfont.woff2') format('woff2'),
+         url('fonts/decalled_script_demo_version-webfont.woff') format('woff');
+    font-weight: normal;
+    font-style: normal;
+
+}
+/*Navigation bar style*/
+#menu{
+    font-size: 30px;
+    color: black;
+    padding-top: 15px;
+}
+nav{
+    
+    font-size: 50px;
+}
+h1{
+    font-family: 'decalled_scriptregular';
+    font-weight: normal;
+    font-style: normal;
+    padding: 0px 0px 0px 470px;
+    font-size: 55px;
+}
+
+/*Main style*/
+
+body .main{
+    height: 100%;
+}
+main{
+    margin: 0 auto;
+    display: grid;
+    width: 1000px;
+    height: 500px;
+    grid-template-columns: repeat(16, 1fr);
+    grid-template-rows: repeat(13, 1fr);
+    font-size: 30px;
+}
+.overlay{
+  top: 0;
+  bottom: 0;
+  left: 0;
+  right: 0;
+  height: 100%;
+  width: 100%;
+  opacity: 0;
+  transition: .5s ease;
+  background-color: rgb(153, 149, 149);
+}
+.aboutme{
+    position: relative;
+    font-family: 'Lora', serif;
+    grid-column: 1 / 5;
+    grid-row: 2 / 11;
+    z-index: 5;
+    text-align: center;
+    vertical-align: center;
+    background: url(../images/sunflower-painting\ -\ Copy.jpg);
+    background-size: 100%;
+    background-repeat: no-repeat;
+}
+.aboutme:hover .overlay{
+    opacity: 0.7;
+}
+.aboutme a{
+    display: flex;
+    align-items: center;
+    justify-content: center;
+    text-decoration: none;
+    color: black;
+}
+.img1{
+    grid-column: 4 / 8;
+    grid-row: 5 / 14;
+    opacity: 0.7;
+    z-index: 4;
+    background-color: rgb(250, 200, 208);
+}
+.mywork{
+    position: relative;
+    font-family: 'Lora', serif;
+    display: flex;
+    align-items: center;
+    justify-content: center;
+    grid-column: 7 / 11;
+    grid-row: 3 / 12;
+    z-index: 3;
+    text-align: center;
+    background: url(../images/sunflower-painting\ -\ Copy.jpg);
+    background-size: 100%;
+    background-repeat: no-repeat;
+}
+.mywork:hover .overlay{
+    opacity: 0.7;
+}
+.mywork a{
+    display: flex;
+    align-items: center;
+    justify-content: center;
+    text-decoration: none;
+    color: black;
+}
+.img2{
+    grid-column: 10 / 14;
+    grid-row: 1 / 11;
+    z-index: 2;
+    opacity: 0.7;
+    background-color: rgb(250, 200, 208);
+}
+.cv{
+    position: relative;
+    font-family: 'Lora', serif;
+    text-align: center;
+    display: flex;
+    align-items: center;
+    justify-content: center;
+    grid-column: 13 / 17;
+    grid-row: 4 / 13;
+    z-index: 1;     
+    background: url(../images/fist-drawing.jpg);
+    background-size: 100%;
+    background-repeat: no-repeat;
+}
+.cv:hover .overlay{
+    opacity: 0.7;
+}
+.cv a{
+    display: flex;
+    align-items: center;
+    justify-content: center;
+    text-decoration: none;
+    color: black;
+}
+
+/*Footer style*/
+.footer li{
+    display: inline;
+    padding: 0px 10px;   
+}
+
+.footer{
+    position: fixed;
+    bottom: 7px;
+    left: 1220px;
+}
+.fa{
+    color: black;
+}
