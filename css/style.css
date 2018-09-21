@@ -1,5 +1,5 @@
 @font-face {
-    font-family: 'freebooter_scriptregular';
+    font-family: 'freebooter';
     src: url('fonts/freebsc_-webfont.woff2') format('woff2'),
          url('fonts/freebsc_-webfont.woff') format('woff');
     font-weight: normal;
@@ -10,17 +10,26 @@
 #menu{
     font-size: 30px;
     color: black;
-    padding-top: 15px;
+    padding-top: 35px;
 }
 nav{
     font-size: 50px;
 }
+.navbar{
+    position: fixed;
+}
 h1{
-    font-family: 'freebooter_scriptregular';
+    font-family: 'freebooter';
     font-weight: normal;
     font-style: normal;
     padding: 10px 0px 10px 470px;
     font-size: 75px;
+}
+#download{
+    font-family: 'Noto Serif KR', sans-serif;
+    font-size: 20px;
+    color: black;
+    margin-top: 35px;
 }
 
 /*Main style*/
@@ -58,14 +67,15 @@ main{
 }
 .aboutme{
     position: relative;
-    font-family: 'Lora', serif;
+    font-family: 'freebooter';
+    font-size: 40px;
     grid-column: 4 / 8;
     grid-row: 2 / 11;
     z-index: 5;
     text-align: center;
     vertical-align: center;
     background-color: grey;
-    background-size: 100%;
+    background-size: cover;
     background-repeat: no-repeat;
 }
 .aboutme:hover .overlay{
@@ -87,7 +97,8 @@ main{
 }
 .mywork{
     position: relative;
-    font-family: 'Lora', serif;
+    font-family: 'freebooter';
+    font-size: 40px;
     display: flex;
     align-items: center;
     justify-content: center;
@@ -118,7 +129,8 @@ main{
 }
 .cv{
     position: relative;
-    font-family: 'Lora', serif;
+    font-family: 'freebooter';
+    font-size: 40px;
     text-align: center;
     display: flex;
     align-items: center;
@@ -127,7 +139,7 @@ main{
     grid-row: 4 / 13;
     z-index: 1;     
     background-color: grey;
-    background-size: 100%;
+    background-size: cover;
     background-repeat: no-repeat;
 }
 .cv:hover .overlay{
@@ -156,9 +168,59 @@ main{
 .footer{
     position: fixed;
     bottom: 7px;
-    left: 1220px;
+    left: 1200px;
 }
 .fa{
     color: black;
 }
 
+/*'About Me' page style*/
+
+#about-header{
+    font-family: 'freebooter';
+    font-size: 75px;
+}
+.profile-pic{
+    height: 70%;
+    width: 70%;
+    margin: 50px 70px;
+}
+.profile{
+    font-family: 'Noto Serif KR', sans-serif;
+    font-size: 25px;
+    margin: 50px 70px;
+}
+
+/*'My Work' page style*/
+
+/*'CV' page style*/
+#cv-header{
+    font-family: 'freebooter';
+    font-size: 75px;
+    margin-left: 80px;
+}
+.row{
+    margin-top: 180px;
+    margin-bottom: 70px;
+}
+.cv-titles{
+    font-family: 'Noto Serif KR', sans-serif;
+    font-size: 17px;
+}
+.cv-info{
+    font-family: 'Noto Serif KR', sans-serif;
+    font-size: 17px;
+    margin-right: 100px;
+}
+.cv-categories{
+    font-family: 'Noto Serif KR', sans-serif;
+    font-size: 17px;
+    margin-left: 100px;
+}
+html { 
+    background: url(../images/sunflower-painting.jpg) no-repeat center center fixed; 
+    -webkit-background-size: cover;
+    -moz-background-size: cover;
+    -o-background-size: cover;
+    background-size: cover;
+  }
