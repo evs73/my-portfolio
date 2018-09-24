@@ -15,9 +15,6 @@
 nav{
     font-size: 50px;
 }
-.navbar{
-    position: fixed;
-}
 h1{
     font-family: 'freebooter';
     font-weight: normal;
@@ -192,6 +189,10 @@ main{
 }
 
 /*'My Work' page style*/
+#mywork-header{
+    font-family: 'freebooter';
+    font-size: 75px;
+}
 
 /*'CV' page style*/
 #cv-header{
@@ -218,7 +219,7 @@ main{
     margin-left: 100px;
 }
 html { 
-    background: url(../images/sunflower-painting.jpg) no-repeat center center fixed; 
+    background: url() no-repeat center center fixed; 
     -webkit-background-size: cover;
     -moz-background-size: cover;
     -o-background-size: cover;
