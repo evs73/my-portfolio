@@ -197,6 +197,11 @@ main{
 /*'CV' page style*/
 #cv{
     background-color: transparent;
+    background: url(../images/background.jpg) no-repeat center center fixed; 
+    -webkit-background-size: cover;
+    -moz-background-size: cover;
+    -o-background-size: cover;
+    background-size: cover;
 }
 
 #cv-header{
@@ -222,10 +227,4 @@ main{
     font-size: 17px;
     margin-left: 100px;
 }
-html { 
-    background: url(../images/background.jpg) no-repeat center center fixed; 
-    -webkit-background-size: cover;
-    -moz-background-size: cover;
-    -o-background-size: cover;
-    background-size: cover;
-  }
+
