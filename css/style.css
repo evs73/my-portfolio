@@ -195,6 +195,10 @@ main{
 }
 
 /*'CV' page style*/
+#cv{
+    background-color: transparent;
+}
+
 #cv-header{
     font-family: 'freebooter';
     font-size: 75px;
@@ -219,7 +223,7 @@ main{
     margin-left: 100px;
 }
 html { 
-    background: url() no-repeat center center fixed; 
+    background: url(../images/background.jpg) no-repeat center center fixed; 
     -webkit-background-size: cover;
     -moz-background-size: cover;
     -o-background-size: cover;
