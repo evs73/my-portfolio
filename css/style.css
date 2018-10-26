@@ -11,10 +11,13 @@
     font-size: 30px;
     color: black;
     padding-top: 35px;
+    padding-left: 20px;
 }
+
 nav{
     font-size: 50px;
 }
+
 h1{
     font-family: 'freebooter';
     font-weight: normal;
@@ -22,6 +25,7 @@ h1{
     padding: 10px 0px 10px 470px;
     font-size: 75px;
 }
+
 #download{
     font-family: 'Noto Serif KR', sans-serif;
     font-size: 20px;
@@ -34,6 +38,7 @@ h1{
 body .main{
     height: 100%;
 }
+
 main{
     margin-top: -20px;
     margin-left: 50px;
@@ -44,6 +49,7 @@ main{
     grid-template-rows: repeat(13, 1fr);
     font-size: 30px;
 }
+
 .overlay{
   top: 0;
   bottom: 0;
@@ -62,6 +68,7 @@ main{
     opacity: 0.7;
     background-color: rgb(250, 200, 208); 
 }
+
 .aboutme{
     position: relative;
     font-family: 'freebooter';
@@ -75,9 +82,11 @@ main{
     background-size: cover;
     background-repeat: no-repeat;
 }
+
 .aboutme:hover .overlay{
     opacity: 0.7;
 }
+
 .aboutme a{
     display: flex;
     align-items: center;
@@ -85,6 +94,7 @@ main{
     text-decoration: none;
     color: black;
 }
+
 .box1{
     grid-column: 7 / 11;
     grid-row: 5 / 14;
@@ -92,6 +102,7 @@ main{
     z-index: 4;
     background-color: rgb(250, 200, 208);
 }
+
 .mywork{
     position: relative;
     font-family: 'freebooter';
@@ -107,9 +118,11 @@ main{
     background-size: cover;
     background-repeat: no-repeat;
 }
+
 .mywork:hover .overlay{
     opacity: 0.7;
 }
+
 .mywork a{
     display: flex;
     align-items: center;
@@ -117,6 +130,7 @@ main{
     text-decoration: none;
     color: black;
 }
+
 .box2{
     grid-column: 13 / 17;
     grid-row: 1 / 10;
@@ -124,6 +138,7 @@ main{
     opacity: 0.7;
     background-color: rgb(250, 200, 208);
 }
+
 .cv{
     position: relative;
     font-family: 'freebooter';
@@ -139,9 +154,11 @@ main{
     background-size: cover;
     background-repeat: no-repeat;
 }
+
 .cv:hover .overlay{
     opacity: 0.7;
 }
+
 .cv a{
     display: flex;
     align-items: center;
@@ -149,6 +166,7 @@ main{
     text-decoration: none;
     color: black;
 }
+
 .box3{
     grid-column: 19 / 23;
     grid-row: 3 / 12; 
@@ -167,6 +185,7 @@ main{
     bottom: 7px;
     left: 1200px;
 }
+
 .fa{
     color: black;
 }
@@ -177,15 +196,26 @@ main{
     font-family: 'freebooter';
     font-size: 75px;
 }
+
 .profile-pic{
-    height: 70%;
-    width: 70%;
-    margin: 50px 70px;
+    height: 75%;
+    width: 75%;
+    margin: 190px 70px 0px 70px;
+    padding-bottom: 0.6em;
 }
+
 .profile{
     font-family: 'Noto Serif KR', sans-serif;
-    font-size: 25px;
-    margin: 50px 70px;
+    font-size: 23px;
+    margin: 160px 70px 0px 70px;
+    line-height: 175%;
+}
+
+.img-caption{
+    font-family: 'Noto Serif KR', sans-serif;
+    font-size: 15px;
+    text-align: center;
+    padding-left: 70px;
 }
 
 /*'My Work' page style*/
@@ -193,11 +223,27 @@ main{
     font-family: 'freebooter';
     font-size: 75px;
 }
+.work-grid{
+    padding-top: 200px;
+}
+.writing-thumbnail{
+    height: 50%;
+    width: 45%;
+}
+.gallery-thumbnail{
+    height: 45%;
+    width: 45%;
+}
+#work-titles{
+    font-family: 'Noto Serif KR', sans-serif;
+}
+/*Gallery style*/
+
 
 /*'CV' page style*/
 #cv{
     background-color: transparent;
-    background: url(../images/background.jpg) no-repeat center center fixed; 
+    background: url() no-repeat center center fixed; 
     -webkit-background-size: cover;
     -moz-background-size: cover;
     -o-background-size: cover;
@@ -209,19 +255,23 @@ main{
     font-size: 75px;
     margin-left: 80px;
 }
-.row{
+
+.cv-grid{
     margin-top: 180px;
     margin-bottom: 70px;
 }
+
 .cv-titles{
     font-family: 'Noto Serif KR', sans-serif;
     font-size: 17px;
 }
+
 .cv-info{
     font-family: 'Noto Serif KR', sans-serif;
     font-size: 17px;
     margin-right: 100px;
 }
+
 .cv-categories{
     font-family: 'Noto Serif KR', sans-serif;
     font-size: 17px;
