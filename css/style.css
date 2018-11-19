@@ -24,6 +24,7 @@ h1{
     font-style: normal;
     padding: 10px 0px 10px 470px;
     font-size: 75px;
+    z-index: 0;
 }
 
 #download{
@@ -45,6 +46,21 @@ main{
     width: 1250px;
     height: 500px;
     font-size: 30px;
+}
+
+.box1{
+    background-color: red;
+    position: absolute;
+    height: 50%;
+    width: 50%;
+    opacity: 0.6;
+    z-index:-1;
+}
+
+.box2 img{
+    height: 50%;
+    width: 30%;
+    z-index: 1;
 }
 
 
