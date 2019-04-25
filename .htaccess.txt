@@ -1,0 +1,4 @@
+AuthType Basic  
+AuthName "restricted area"  
+AuthUserFile /Users/Evie/Documents/Coding/my-portfolio/my-portfolio/.htpasswd  
+require valid-user
