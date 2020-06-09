@@ -1,5 +1,5 @@
 @font-face {
-    font-family: 'freebooter';
+    font-family: '';
     src: url('fonts/freebsc_-webfont.woff2') format('woff2'),
          url('fonts/freebsc_-webfont.woff') format('woff');
     font-weight: normal;
@@ -12,6 +12,11 @@
     color: black;
     padding-top: 35px;
     padding-left: 20px;
+
+
+
+
+    
 }
 
 nav{
@@ -19,7 +24,7 @@ nav{
 }
 
 h1{
-    font-family: 'freebooter';
+    font-family: 'arial';
     font-weight: normal;
     font-style: normal;
     padding: 10px 0px 10px 470px;
@@ -35,34 +40,6 @@ h1{
 }
 
 /*Main style*/
-
-body .main{
-    height: 100%;
-}
-
-main{
-    margin-top: -20px;
-    margin-left: 50px;
-    width: 1250px;
-    height: 500px;
-    font-size: 30px;
-}
-
-.box1{
-    background-color: red;
-    position: absolute;
-    height: 50%;
-    width: 50%;
-    opacity: 0.6;
-    z-index:-1;
-}
-
-.box2 img{
-    height: 50%;
-    width: 30%;
-    z-index: 1;
-}
-
 
 
 /*Footer style*/
